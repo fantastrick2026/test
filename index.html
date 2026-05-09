@@ -2,11 +2,20 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스톱워치</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>안녕하세요!</p>
-    <p>🚀 자동 배포 테스트 중!</p>
+    <div class="stopwatch">
+        <h1>⏱️ 스톱워치</h1>
+        <div id="display">00:00:00.00</div>
+        <div class="buttons">
+            <button id="startBtn" class="btn start">시작</button>
+            <button id="stopBtn" class="btn stop">멈춤</button>
+            <button id="resetBtn" class="btn reset">초기화</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
